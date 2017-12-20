@@ -1,3 +1,3 @@
-app.controller('HomeController', ['$scope','UserInfoService',function($scope, UserInfoService) {
+app.controller('HomeController', ['$scope','BlueAPIService',function($scope, UserInfoService) {
 	console.log("Entering Home Controller")
 }]);
